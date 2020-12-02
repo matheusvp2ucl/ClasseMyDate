@@ -14,6 +14,8 @@ class MainClass {
     MyDate novaData = new MyDate( );
 
     Console.WriteLine( novaData.toString() );
+    novaData.nextDay();
+    Console.WriteLine( novaData.toString() );
 
   }
 }

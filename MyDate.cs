@@ -76,7 +76,8 @@ class MyDate{
 
   // Metodo para adicionar mais 1 dia a data da classe !
   public void nextDay(){
-
+    this.varDate = this.varDate.AddDays(1);
+    this.SetAttrs();
   }
 
 }
